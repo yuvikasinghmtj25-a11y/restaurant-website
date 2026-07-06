@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RESTRAUNT MENU</title>
+        <style>
+            #navi{
+                background-color: #5C1A1B;
+                display: flex;
+                height: 100px;
+                justify-content: space-between;
+            }  
+            #link{
+                display: flex;
+                gap: 40px;
+            }  
+            #brand{
+                display: flex;
+                padding: 20px;
+                align-items:center;
+            }   
+          #name{
+                color: #D4AF37;
+                font-size: 50px;
+            }
+            a{
+                color: #F5F5DC;
+                font-size: 20px;
+                text-decoration: none;
+                padding: 20px;
+            }
+            a:hover{
+                color:#FFB347;
+            }
+            img{
+                height: 60px;
+                width: 60px;
+                align-items: center;
+                height: 60px;
+                width: 60px;
+            }
+            #home{
+                text-align: center;
+                line-height: 40px;
+                font-size: 20px;
+            }
+            #imbu{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+            }
+            .link2{
+                background-color: #D4AF37;
+                color: #3B1F1F;
+                border-radius: 20px;
+                width:200px;
+            }
+            #food{
+                height: 400px;
+                width: 400px;
+                border-radius: 50px;
+
+            }
+            .link2:hover{
+                background-color:#E6C75A ;
+                color: #2B1A12;
+                transform: scale(1.05);
+                transition-duration: 2s;
+                filter:drop-shadow(30px 10px 4px rgba(30,58,138,0.15));
+                transform: translateY(5px);
+            }
+            #flex1{
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+            }
+            .f1{
+            height: 300px;
+            width: 300px;
+            border-radius: 40px;
+            }
+           .food1{
+            font-size: 20px;
+            height: 500px;
+            width: 400px;
+            padding: 20px;
+            background-color: #FFF8E7;
+            border-radius: 30px;
+            box-shadow:0px 4px 10px rgba(0,0,0,0.15);
+           }
+           #menu{
+            text-align: center;
+           }
+           .price{
+            color:#D4AF37 ;
+           }
+           #flex2{
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                margin-top:40px;
+            }
+            .food1:hover{
+                transform: translateY(-15px);
+                transition:0.3s;
+                box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+                cursor:pointer;
+            }
+            .f1:hover{
+                transition: 0.3s;
+                filter:brightness(110%);
+            }
+            #aboutFlex1{
+                display:flex;
+                flex-direction: column;
+                margin-right: 100px;
+                text-align: center;
+            }
+            #aboutFlex2{
+                display:flex;
+                flex-direction: column;
+                font-size: 20px;
+                line-height: 30px;
+            }
+            #imgAbout{
+                padding: 20px;
+                height: 400px;
+                width: 400px;
+                border-radius: 50px;
+            }
+            #about{
+                display: flex;
+                margin: 80px;
+                align-items: center;
+            }
+            #contact{
+               text-align: left;
+               font-size: 20px;
+               margin-top: 50px;
+               background-color: #FFF8E7;
+               padding: 40px;
+            }
+           .contac{
+            color: #5C1A1B;
+           }
+        </style>
+    </head>
+    <body>
+        <nav id="navi">
+            <div id="brand">
+            <img src="https://i.pinimg.com/736x/42/0f/c7/420fc78e59ba16b7ded708fe0cf49c9b.jpg">
+            <h1 id="name">Desi Dish</h1>
+            </div>
+            <div id="link">
+            <a href="#home">HOME</a>
+            <a href="#menu">MENU</a>
+            <a href="#about">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+            </div>
+        </nav>
+        <div id="home">
+            <h2>Taste the tradition</h2>
+            <p>Fresh ingredients, authentic flavors,and unforgettable dining experience</p>
+               <p>Where every dish tells a story of tradition, flavor, and passion.</p>
+               <div id="imbu">
+                <a class="link2" href="#menu">EXPLORE MENU</a>
+                <img id="food" src="https://i.pinimg.com/736x/16/80/08/1680082c375c9ca7cc5cfcce41dbac55.jpg">
+                </div>
+        </div>
+        <div id="menu">
+            <h2>OUR MENU</h2>
+            <div id="flex1">
+                <div class="food1">
+                 <img class="f1" src="https://i.pinimg.com/webp/1200x/a1/3a/78/a13a7886f907aa0ad07784e87136d7ed.webp">
+                 <p>BUTTER CHICKEN</p>
+                 <p>Creamy tomato gravy with tender chicken.</p>
+                 <p class="price">Rs.349</p>
+                 <p>🔥 CHEF'S SPECIAL</p>
+                </div>
+                <div class="food1">
+                <img class="f1" src="https://i.pinimg.com/736x/62/2f/95/622f95f44bae3eb801576a88f60782a9.jpg">
+                <p>PANEER BUTTER MASALA</p>
+                <p>Rich and creamy cottage cheese curry.</p>
+                <p class="price">Rs.299</p>
+                </div>
+                <div class="food1">
+                <img class="f1" src="https://i.pinimg.com/webp/1200x/55/7e/2b/557e2bc0a6b57a247264d1968f6d0d2a.webp">
+                <p>CHICKEN BIRYANI</p>
+                <p>Fragrant rice with aromatic spices.</p>
+                <p class="price">Rs.329</p>
+                </div>
+            </div>
+            <div id="flex2">
+                <div class="food1">
+          <img class="f1" src="https://i.pinimg.com/1200x/b5/5d/6f/b55d6f1c767cd0d9b1a60646afeac3e1.jpg">
+                 <p>PANEER TIKKA</p>
+                 <p>Smoky grilled cottage cheese with flavorful spices.</p>
+                 <p class="price">Rs.279</p>
+                </div>
+                <div class="food1">
+<img class="f1" src="https://i.pinimg.com/736x/12/36/69/1236695cca64071b79bef7a8b3fb7f1a.jpg">
+                 <p>VEG MOMOS</p>
+                 <p>Steamed dumplings served with spicy chutney.</p>
+                 <p class="price">Rs.179</p>
+                </div>
+                <div class="food1">
+<img class="f1" src="https://i.pinimg.com/736x/ac/54/20/ac54209d7554a05a8673dd63f378d76a.jpg">
+                 <p>GULAB JAMUN</p>
+                 <p>Soft milk dumplings in sugar syrup</p>
+                 <p class="price">Rs.99</p>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div id="aboutFlex1">
+    <img id="imgAbout" src="https://i.pinimg.com/736x/56/9e/45/569e45d158cbc48e4bf4bba74cb20658.jpg">
+            </div>
+            <di id="aboutFlex2">
+                 <h2>ABOUT US</h2>
+     <p>At Desi Dish, we bring the rich flavors of India to your table. Our dishes are prepared using fresh ingredients, authentic spices, and traditional recipes. We are passionate about serving delicious food in a warm and welcoming atmosphere.</p>
+     <p>🌿 Fresh Ingredients</p>
+     <p>👨‍🍳 Expert Chefs</p>
+     <p>❤️ Warm Hospitality</p>
+            </div>
+            <footer>
+                <div id="contact">
+                    <h2>CONTACT US</h2>
+                <p>📞 Phone:<a class="contac href="tel:96XXXXXXXX">96XXXXXXXX</a></p>
+                <p>📧 Email:<a class="contac href="mailto:xyz@gmail.com">xyz@gmail.com</a></p>
+                <p>📍 Restaurant address:101 Saffron Avenue, Taste City, India - 100001</p>
+                <p>🕒 Opening hours:🕒 Mon - Sun: 11:00 AM - 11:00 PM</p>
+            </div>
+           <p> © 2026 Desi Dish | Made by Yuvika Singh</p>
+            </footer>
+    </body>
+</html>
